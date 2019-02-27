@@ -1,0 +1,9 @@
+{
+  "extends": "stylelint-config-standard",
+  "rules": {
+    "selector-pseudo-element-colon-notation": null,
+    "rule-empty-line-before": null,
+    "no-descending-specificity": null,
+    "at-rule-no-unknown": null
+  }
+}

@@ -1,0 +1,37 @@
+.Wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 524px;
+  margin-top: 12px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Pagination {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ddd;
+  background: #ddd;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 0 3px;
+  transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+.Pagination:hover,
+.Pagination:active {
+  border-color: #ccc;
+  background: #ccc;
+}
+
+.Active {
+  background: #bf0000;
+  border: 1px solid #bf0000;
+}
+
+.Active:hover,
+.Active:active {
+  border-color: #df0000;
+  background: #df0000;
+}
